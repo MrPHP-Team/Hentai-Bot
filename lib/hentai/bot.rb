@@ -4,7 +4,7 @@ require 'telegram/bot'
 module Hentai
   module Bot
     class Error < StandardError; end
-    token = '1332509363:AAHgzSQ_qXuhLepg8S0b5Ic-vJDOr4l6BFk'
+    token = 'TOKEN'
     arr = IO.readlines("hentai.txt")
 
     def size
